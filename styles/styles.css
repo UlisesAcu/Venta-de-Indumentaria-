@@ -53,7 +53,10 @@ header h1 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 50px;
     text-decoration: underline;
-
+    transition: all 0.1s;
+}
+header h1:hover {
+    font-size: 51px;
 }
 
 main {
@@ -116,7 +119,12 @@ footer {
 
 .footer__ig {
     width: 20px;
-    height: 20px
+    height: 20px;
+    transition: all 0.1s;
+}
+.footer__ig:hover {
+    width: 22px;
+    height: 22px;
 }
 
 

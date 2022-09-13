@@ -1,11 +1,4 @@
-body {
-    display: grid;
-    grid-template-rows: 3, fr;
-    grid-template-columns:
-        "header"
-        "main"
-        "footer";
-}
+
 
 
 
@@ -16,7 +9,7 @@ header {
     background-color: black;
     position: sticky;
     top: 0px;
-    grid-area: "header";
+
 
 }
 
@@ -65,7 +58,7 @@ main {
     padding-left: 20px;
     line-height: 50px;
     text-align: center;
-    grid-area: "main";
+    
 
 
 
@@ -116,7 +109,7 @@ footer {
     padding-bottom: 2px;
     line-height: 5px;
     font-family: Arial, Helvetica, sans-serif;
-    grid-area: "footer";
+
 }
 
 .footer__ig {

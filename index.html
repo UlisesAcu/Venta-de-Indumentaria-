@@ -6,50 +6,132 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./images/images-inicio/imagenLogo.png">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">   -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="./styles/styles.css">
     <!-- CSS only -->
 
     <title>Inicio</title>
 </head>
 
-<body>
+<body class="container-fluid">
     <header>
-        <a href="./index.html">
-            <h1>UTTA Black</h1>
-            <nav>
-                <ul>
-                    <li class="lista"><a href="./index.html">Inicio</a></li>
-                    <li class="lista"><a href="./pages/remeras.html">Remeras</a></li>
-                    <li class="lista"><a href="./pages/camperas-buzos.html"> Camperas-Buzos</a></li>
-                    <li class="lista"><a href="./pages/pantalones.html">Pantalones</a></li>
-                    <li class="lista"><a href="./pages/contacto.html">Contacto</a></li>
-                </ul>
-            </nav>
+
+        <section class="row">
+            <a href="./index.html">
+                <h1>UTTA Black</h1>
+        </section>
+
+        <nav class="row">
+            <ul>
+                <li class="lista"><a href="./index.html">Inicio</a></li>
+                <li class="lista"><a href="./pages/remeras.html">Remeras</a></li>
+                <li class="lista"><a href="./pages/camperas-buzos.html"> Camperas-Buzos</a></li>
+                <li class="lista"><a href="./pages/pantalones.html">Pantalones</a></li>
+                <li class="lista"><a href="./pages/contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
     </header>
 
 
     <main>
-        <div>
+        <div class="row">
             <h3 class="destacado"> PRODUCTOS DESTACADOS</h3>
         </div>
 
-        <div class="remeras__img1">
-            <img src="./images/images-inicio/remera1.jpg" alt="remera negra k8" class="tamaño__img">
-            <img src="./images/images-inicio/remera3.jpg" alt="remeron blanco ca" class="tamaño__img">
-            <img src="./images/images-inicio/remera2.jpg" alt="remeron negro k8" class="tamaño__img">
-            <img src="./images/images-inicio/remera4.jpg" class="tamaño__img">
+
+        <div class="row">
+            <div class="remeras__img1">
+                <div class="container">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./images/images-inicio/remera1.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./images/images-inicio/remera3.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./images/images-inicio/remera2.jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <div>
             <h3 class="destacado"> NOVEDADES</h3>
         </div>
-        <div class="remeras__img1">
-            <img src="./images/images-inicio/campera-buzo1.jpeg" alt="Campera KONGO" class="tamaño__img">
-            <img src="./images/images-inicio/pantalon1.jpg" alt="Pantalon Negro KONGO" class="tamaño__img">
-            <img src="./images/images-inicio/campera-buzo2.jpg" alt="Buzo Blanco KONGO" class="tamaño__img">
-            <img src="./images/images-inicio/pantalon2.jpg" class="tamaño__img">
-        </div>
+
+        <div class="row">
+            <div class="remeras__img1">
+                <div>
+                    <div class="card" style="width: 11rem;">
+                        <img src="./images/images-inicio/campera-buzo1.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Campera de jean KONGO</h5>
+                            <p class="card-text"> $4.000</p>
+                            <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="card" style="width: 11rem;">
+                        <img src="./images/images-inicio/pantalon1.jpg" class="card-img-top"
+                            alt=" Pantalon Negro JONGO">
+                        <div class="card-body">
+                            <h5 class="card-title">Pantalon Negro KONGO</h5>
+                            <p class="card-text">$3.500</p>
+                            <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="card" style="width: 11rem;">
+                        <img src="./images/images-inicio/campera-buzo2.jpg" class="card-img-top"
+                            alt="Buzo Blanco KONGO">
+                        <div class="card-body">
+                            <h5 class="card-title">Buzo Blanco KONGO</h5>
+                            <p class="card-text">$3.500</p>
+                            <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="card" style="width: 11rem;">
+                        <img src="./images/images-inicio/pantalon2.jpg" class="card-img-top"
+                            alt="Pantalon Celeste KONGO">
+                        <div class="card-body">
+                            <h5 class="card-title">Pantalon Celeste KONGO</h5>
+                            <p class="card-text">$3.000</p>
+                            <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
     </main>
 
 
@@ -62,8 +144,11 @@
             <img src="./images/images-inicio/logo ig.png" alt="logo de intagram" class="footer__ig"></a>
         <p class="diseño"> © Ulises Tomas Acuña - 2022</p>
     </footer>
-<!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous">
+        </script>
 </body>
 
 </html>

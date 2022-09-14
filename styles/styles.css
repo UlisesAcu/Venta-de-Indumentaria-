@@ -9,6 +9,7 @@ header {
     background-color: black;
     position: sticky;
     top: 0px;
+    z-index: 1;
 
 
 }
@@ -64,7 +65,7 @@ main {
 
 }
 
-
+.container {width: 300px;}
 
 .destacado {
     color: black;

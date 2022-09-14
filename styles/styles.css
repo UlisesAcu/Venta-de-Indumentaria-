@@ -1,7 +1,7 @@
 header {
     text-align: center;
-    /* margin: none;
-    padding: none; */
+    margin: none;
+    padding: none;
     background-color: black;
     position: sticky;
     top: 0px;
@@ -221,12 +221,13 @@ footer {
 
 .camperas__buzos__titulo {
     color: black;
-    font-weight: 800;
+    font-weight: 700;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: overline;
     display: flex;
     justify-content: center;
     line-height: 150px;
+    font-size: 1.17em;
 }
 
 
@@ -241,14 +242,16 @@ footer {
 
 .pantalones__titulo {
     color: black;
-    font-weight: 800;
+    font-weight: 700;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: overline;
     display: flex;
     justify-content: center;
-    line-height: 150px;
-
+    line-height: 150px; font-size: 1.17em; 
 }
+
+
+
 
 .pantalones__img {
     display: flex;

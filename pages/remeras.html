@@ -5,16 +5,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="../styles/styles.css">
     <title>Remeras</title>
     <link rel="shortcut icon" href="../images/images-inicio/imagenLogo.png">
 </head>
 
-<body>
-    <header class="remeras">
+<body class="container-fluid">
+    <header class="row">
         <a href="../index.html">
             <h1> UTTA Black</h1>
-            <nav>
+            <nav class="row">
                 <ul>
                     <li class="remeras__lista"><a href="../index.html">Inicio</a></li>
                     <li class="remeras__lista"><a href="./remeras.html">Remeras</a></li>
@@ -25,16 +27,62 @@
             </nav>
     </header>
 
-    <main class="remeras__principal">
-        <div class="remeras__titulo">
-            <h3>REMERAS</h3>
+    <main>
+        <div class="row">
+            <h3 class="remeras__titulo">REMERAS</h3>
         </div>
 
-        <div class="remeras__img">
-            <img src="../images/images-remeras/remera6.jpg" class="tamaño__img">
-            <img src="../images/images-remeras/remera7.jpg" class="tamaño__img">
-            <img src="../images/images-remeras/remera9.jpg" class="tamaño__img">
-            <img src="../images/images-remeras/remera4.jpg" class="tamaño__img">
+
+        <div class="row">
+            <div  class="col-lg-3">
+                <div class="card" style="width: 11rem;">
+                    <img src="../images/images-remeras/remera6.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Remera Negra KOY</h5>
+                        <p class="card-text"> $3.300</p>
+                        <a href="#" class="button__card">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class=" col-lg-3">
+                <div class="card" style="width: 11rem;">
+                    <img src="../images/images-remeras/remera7.jpg" class="card-img-top"
+                        alt=" Pantalon Negro JONGO">
+                    <div class="card-body">
+                        <h5 class="card-title">Remera Negre R.E.A.L.</h5>
+                        <p class="card-text">$3.000</p>
+                        <a href="#" class="button__card">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3">
+                <div class="card" style="width: 11rem;">
+                    <img src="../images/images-remeras/remera9.jpg" class="card-img-top"
+                        alt="Buzo Blanco KONGO">
+                    <div class="card-body">
+                        <h5 class="card-title">Remera Blanca</h5>
+                        <p class="card-text">$3.000</p>
+                        <a href="#" class="button__card">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 ">
+                <div class="card" style="width: 11rem;">
+                    <img src="../images/images-remeras/remera4.jpg" class="card-img-top"
+                        alt="Pantalon Celeste KONGO">
+                    <div class="card-body">
+                        <h5 class="card-title">Remera Blanca KOY</h5>
+                        <p class="card-text">$3.000</p>
+                        <a href="#" class="button__card">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+        
+
+            
         </div>
     </main>
 
@@ -49,6 +97,9 @@
         <p class="diseño"> © Ulises Tomas Acuña - 2022</p>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous">
+        </script>
 </body>
 
 

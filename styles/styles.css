@@ -1,7 +1,3 @@
-
-
-
-
 header {
     text-align: center;
     margin: none;
@@ -59,13 +55,15 @@ main {
     padding-left: 20px;
     line-height: 50px;
     text-align: center;
-    
+
 
 
 
 }
 
-.container {width: 300px;}
+.container {
+    width: 300px;
+}
 
 .destacado {
     color: black;
@@ -78,6 +76,24 @@ main {
     font-size: 1.17em;
     ;
 }
+
+
+.card {background-color: black;}
+.card-body {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.button__card {
+    border: solid;
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: all 0,1s
+}
+.button__card:hover {padding:6px; color:white ;}
+
 
 .remeras__img1 {
     display: flex;

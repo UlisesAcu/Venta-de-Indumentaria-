@@ -34,11 +34,9 @@ ul a:hover {
 
 }
 
-#nav__sty {
-    color: white;
-}
-
-
+.nav-link {color: white;}
+.nav-link:hover {color:white;text-decoration: overline;}
+.navbar-toggler {background-color: white; padding: 5px;}
 
 header h1 {
     color: white;

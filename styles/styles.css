@@ -9,14 +9,14 @@ header {
   top: 0px;
   z-index: 1;
 }
-header header h1 {
+header h1 {
   color: white;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 50px;
   text-decoration: underline;
   transition: all 0.1s;
 }
-header header h1:hover {
+header h1:hover {
   font-size: 51px;
 }
 header header a {

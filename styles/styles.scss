@@ -1,3 +1,4 @@
+@import"./_partials/variables";
 @import "./_partials/header";
 @import "./_partials/footer";
 @import "./_partials/main";
@@ -12,7 +13,7 @@
     display: flex;
     justify-content: center;
     line-height: 150px;
-    font-size: 1.17em;
+    font-size: $tamanosSubsTitulos;
 }
 
 .remeras__img {

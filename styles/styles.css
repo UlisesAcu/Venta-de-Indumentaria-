@@ -41,6 +41,41 @@ header .navbar-toggler {
   padding: 5px;
 }
 
+footer {
+  background-color: black;
+  color: white;
+  padding: 0%;
+  margin: 0%;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-bottom: 2px;
+  line-height: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+footer .footer__ig {
+  width: 20px;
+  height: 20px;
+  transition: all 0.1s;
+}
+footer .footer__ig:hover {
+  width: 22px;
+  height: 22px;
+}
+footer .p__contacto {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  text-decoration: underline;
+  line-height: 8px;
+  padding: 5px;
+}
+footer .piedepagina {
+  font-size: 16px;
+  line-height: 17px;
+}
+footer .diseño {
+  text-align: center;
+}
+
 main {
   padding-bottom: 200px;
   padding-left: 20px;
@@ -93,41 +128,6 @@ main .button {
 }
 main .button:hover {
   color: white;
-}
-
-footer {
-  background-color: black;
-  color: white;
-  padding: 0%;
-  margin: 0%;
-  padding-top: 5px;
-  padding-left: 10px;
-  padding-bottom: 2px;
-  line-height: 5px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-footer .footer__ig {
-  width: 20px;
-  height: 20px;
-  transition: all 0.1s;
-}
-footer .footer__ig:hover {
-  width: 22px;
-  height: 22px;
-}
-footer .p__contacto {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 18px;
-  text-decoration: underline;
-  line-height: 8px;
-  padding: 5px;
-}
-footer .piedepagina {
-  font-size: 16px;
-  line-height: 17px;
-}
-footer .diseño {
-  text-align: center;
 }
 
 .remeras__titulo {

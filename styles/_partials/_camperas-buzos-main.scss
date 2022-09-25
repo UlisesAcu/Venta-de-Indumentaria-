@@ -1,0 +1,22 @@
+.camperas__buzos__img {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-content: space-around;
+
+
+
+}
+
+.camperas__buzos__titulo {
+    color: black;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: overline;
+    display: flex;
+    justify-content: center;
+    line-height: 150px;
+    font-size: 1.17rem;
+}

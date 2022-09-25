@@ -20,3 +20,19 @@
     line-height: 150px;
     font-size: 1.17rem;
 }
+
+/*camperas-buzos*/
+@media screen and (max-width:480px) {
+    .camperas__buzos h1 {
+        font-size: 40px;
+    }
+
+    .campera__buzo__lista {
+        display: none;
+    }
+
+    .camperas__buzos__titulo {
+        font-size: 20px;
+    }
+
+}

@@ -150,6 +150,18 @@ main .button:hover {
   align-content: space-around;
 }
 
+/*remeras*/
+@media screen and (max-width: 480px) {
+  .remeras h1 {
+    font-size: 40px;
+  }
+  .remeras__lista {
+    display: none;
+  }
+  .remeras__titulo {
+    font-size: 20px;
+  }
+}
 .camperas__buzos__img {
   display: flex;
   flex-direction: row;
@@ -190,6 +202,18 @@ main .button:hover {
   padding-bottom: 150px;
 }
 
+/*pantalones*/
+@media screen and (max-width: 480px) {
+  .pantalones h1 {
+    font-size: 40px;
+  }
+  .pantalones__lista {
+    display: none;
+  }
+  .pantalones__titulo {
+    font-size: 20px;
+  }
+}
 .contacto__lista {
   display: inline;
   list-style: none;
@@ -230,42 +254,6 @@ main .button:hover {
   }
   .button:hover {
     color: none;
-  }
-}
-/*remeras*/
-@media screen and (max-width: 480px) {
-  .remeras h1 {
-    font-size: 40px;
-  }
-  .remeras__lista {
-    display: none;
-  }
-  .remeras__titulo {
-    font-size: 20px;
-  }
-}
-/*camperas-buzos*/
-@media screen and (max-width: 480px) {
-  .camperas__buzos h1 {
-    font-size: 40px;
-  }
-  .campera__buzo__lista {
-    display: none;
-  }
-  .camperas__buzos__titulo {
-    font-size: 20px;
-  }
-}
-/*pantalones*/
-@media screen and (max-width: 480px) {
-  .pantalones h1 {
-    font-size: 40px;
-  }
-  .pantalones__lista {
-    display: none;
-  }
-  .pantalones__titulo {
-    font-size: 20px;
   }
 }
 /*contacto*/

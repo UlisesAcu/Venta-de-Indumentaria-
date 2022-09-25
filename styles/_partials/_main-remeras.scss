@@ -17,3 +17,19 @@
     justify-content: space-evenly;
     align-content: space-around;
 }
+
+/*remeras*/
+@media screen and (max-width:480px) {
+    .remeras h1 {
+        font-size: 40px;
+    }
+
+    .remeras__lista {
+        display: none;
+    }
+
+    .remeras__titulo {
+        font-size: 20px;
+    }
+
+}

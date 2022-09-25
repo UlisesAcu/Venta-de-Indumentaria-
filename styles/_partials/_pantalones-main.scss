@@ -18,3 +18,19 @@
     justify-content: space-around;
     padding-bottom: 150px;
 }
+
+/*pantalones*/
+@media screen and (max-width:480px) {
+    .pantalones h1 {
+        font-size: 40px;
+    }
+
+    .pantalones__lista {
+        display: none;
+    }
+
+    .pantalones__titulo {
+        font-size: 20px;
+    }
+
+}

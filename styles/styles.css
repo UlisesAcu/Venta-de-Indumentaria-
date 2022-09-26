@@ -226,6 +226,17 @@ main .button:hover {
     font-size: 20px;
   }
 }
+.contacto__titulo {
+  color: black;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: overline;
+  display: flex;
+  justify-content: center;
+  line-height: 150px;
+  font-size: 1.17em;
+}
+
 .contacto__lista {
   display: inline;
   list-style: none;
@@ -241,6 +252,16 @@ main .button:hover {
 .contacto__formulario {
   list-style: none;
   text-align: center;
+  line-height: 50px;
+}
+.contacto__formulario .form {
+  line-height: 15px;
+  width: 300px;
+  height: 50px;
+}
+
+.butoon__form {
+  background-color: black;
 }
 
 /*inicio*/

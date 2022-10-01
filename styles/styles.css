@@ -40,6 +40,9 @@ header .navbar-toggler {
   background-color: white;
   padding: 5px;
 }
+header .container-fluid {
+  width: auto;
+}
 
 footer {
   background-color: black;
@@ -179,7 +182,7 @@ main .button:hover {
   display: flex;
   justify-content: center;
   line-height: 150px;
-  font-size: 1.17rem;
+  font-size: 1.17em;
 }
 
 /*camperas-buzos*/
@@ -202,7 +205,7 @@ main .button:hover {
   display: flex;
   justify-content: center;
   line-height: 150px;
-  font-size: 1.17rem;
+  font-size: 1.17em;
 }
 
 .pantalones__img {
@@ -287,6 +290,9 @@ main .button:hover {
   }
   .button:hover {
     color: none;
+  }
+  .container-fluid-menu {
+    width: 100%;
   }
 }
 /*contacto*/

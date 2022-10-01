@@ -18,7 +18,7 @@
     display: flex;
     justify-content: center;
     line-height: 150px;
-    font-size: 1.17rem;
+    font-size: map-get($tamamosSubTitulos, subTitulo );
 }
 
 /*camperas-buzos*/

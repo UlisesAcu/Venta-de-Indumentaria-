@@ -1,4 +1,5 @@
 @import"./_partials/variables";
+@import "./_partials/maps";
 @import "./_partials/header";
 @import "./_partials/footer";
 @import "./_partials/main";
@@ -86,6 +87,11 @@
 
     .button:hover {
         color: none;
+    }
+
+    .container-fluid-menu {
+        width: 100%;
+        
     }
 
 }

@@ -45,15 +45,14 @@ main {
         }
     }
     .button {
-    
+        @extend %button;
         border-radius: 8px;
-        background-color: rgb(12, 12, 12);
-        padding: 10px;
-        color: rgb(254, 252, 252);
-        text-decoration: none;
-        &:hover {
-            color: white;
-        }
+       
     }
+    .segundoboton{
+        @extend %button;
+        border-radius: 8px;
+    }
+
 
 }

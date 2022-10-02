@@ -57,7 +57,7 @@
     
 }
 
-.butoon__form {background-color: black;}
+.butoon__form { @extend %button}
 
 /*inicio*/
 @media screen and (max-width:576px) {

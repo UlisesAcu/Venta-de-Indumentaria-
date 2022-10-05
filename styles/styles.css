@@ -160,7 +160,7 @@ main .button {
 }
 
 /*remeras*/
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 576px) {
   .remeras h1 {
     font-size: 40px;
   }
@@ -189,7 +189,7 @@ main .button {
 }
 
 /*camperas-buzos*/
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 576px) {
   .camperas__buzos h1 {
     font-size: 40px;
   }
@@ -221,7 +221,7 @@ main .button {
 }
 
 /*pantalones*/
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 576px) {
   .pantalones h1 {
     font-size: 40px;
   }
@@ -275,7 +275,7 @@ main .button {
   border-radius: 10px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 576px) {
   header h1 {
     font-size: 40px;
   }

@@ -39,6 +39,10 @@ header header a ul a {
 header:hover {
   color: rgba(197, 194, 194, 0.904);
 }
+header .navbar-nav {
+  display: flex;
+  justify-content: space-around;
+}
 header .nav-link {
   color: white;
 }
@@ -160,9 +164,6 @@ main .button {
   .remeras h1 {
     font-size: 40px;
   }
-  .remeras__lista {
-    display: none;
-  }
   .remeras__titulo {
     font-size: 20px;
   }
@@ -275,18 +276,20 @@ main .button {
 }
 
 @media screen and (max-width: 480px) {
-  .contacto h1 {
+  header h1 {
     font-size: 40px;
   }
-  .contacto__lista {
-    display: none;
-  }
-  .contacto__formulario {
+  .contacto__titulo {
     font-size: 20px;
   }
-  .form {
-    width: 225px;
-    height: 30px;
+  .contacto__formulario {
+    list-style: none;
+    text-align: center;
+    line-height: 50px;
+  }
+  .contacto__formulario .form {
+    line-height: 15px;
+    width: 200px;
   }
 }
 /*inicio*/
@@ -312,8 +315,5 @@ main .button {
   }
   .button:hover {
     color: none;
-  }
-  .container-fluid {
-    width: 100%;
   }
 }/*# sourceMappingURL=styles.css.map */

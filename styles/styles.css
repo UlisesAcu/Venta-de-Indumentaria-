@@ -53,10 +53,6 @@ header .navbar-toggler {
 header .container-fluid {
   width: auto;
 }
-header .hola {
-  background-color: black;
-  color: bisque;
-}
 
 footer {
   background-color: black;
@@ -265,7 +261,35 @@ main .button {
 }
 .contacto__formulario .form {
   line-height: 15px;
-} /*inicio*/
+  width: 450px;
+}
+
+.formulario {
+  display: flex;
+  justify-content: center;
+  color: rgb(8, 1, 14);
+}
+
+.butoon__form {
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 480px) {
+  .contacto h1 {
+    font-size: 40px;
+  }
+  .contacto__lista {
+    display: none;
+  }
+  .contacto__formulario {
+    font-size: 20px;
+  }
+  .form {
+    width: 225px;
+    height: 30px;
+  }
+}
+/*inicio*/
 @media screen and (max-width: 576px) {
   header h1 {
     font-size: 40px;
@@ -291,21 +315,5 @@ main .button {
   }
   .container-fluid-menu {
     width: 100%;
-  }
-}
-/*contacto*/
-@media screen and (max-width: 480px) {
-  .contacto h1 {
-    font-size: 40px;
-  }
-  .contacto__lista {
-    display: none;
-  }
-  .contacto__formulario {
-    font-size: 20px;
-  }
-  .form {
-    width: 225px;
-    height: 30px;
   }
 }/*# sourceMappingURL=styles.css.map */

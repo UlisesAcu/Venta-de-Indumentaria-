@@ -51,7 +51,7 @@ header .navbar-toggler {
   padding: 5px;
 }
 header .container-fluid {
-  width: auto;
+  width: 100%;
 }
 
 footer {
@@ -313,7 +313,7 @@ main .button {
   .button:hover {
     color: none;
   }
-  .container-fluid-menu {
+  .container-fluid {
     width: 100%;
   }
 }/*# sourceMappingURL=styles.css.map */

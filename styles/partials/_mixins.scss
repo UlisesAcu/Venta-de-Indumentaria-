@@ -1,5 +1,5 @@
 @mixin card($backColor) {
-    border: none;
+    border: $backColor;
         color: rgb(61, 59, 59);
         &:hover {
             border-style: solid;

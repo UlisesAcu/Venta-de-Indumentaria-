@@ -1,4 +1,14 @@
 @charset "UTF-8";
+.butoon__form, main .button {
+  background-color: rgb(12, 12, 12);
+  padding: 10px;
+  color: rgb(255, 253, 253);
+  text-decoration: none;
+}
+.butoon__form:hover, main .button:hover {
+  color: white;
+}
+
 header {
   text-align: center;
   margin: none;
@@ -42,6 +52,10 @@ header .navbar-toggler {
 }
 header .container-fluid {
   width: auto;
+}
+header .hola {
+  background-color: black;
+  color: bisque;
 }
 
 footer {
@@ -113,7 +127,6 @@ main .remeras__img1 {
   align-content: space-around;
 }
 main .card {
-  background-color: transparent;
   border: none;
   color: rgb(61, 59, 59);
 }
@@ -124,13 +137,6 @@ main .card:hover {
 }
 main .button {
   border-radius: 8px;
-  background-color: rgb(12, 12, 12);
-  padding: 10px;
-  color: rgb(254, 252, 252);
-  text-decoration: none;
-}
-main .button:hover {
-  color: white;
 }
 
 .remeras__titulo {
@@ -259,15 +265,7 @@ main .button:hover {
 }
 .contacto__formulario .form {
   line-height: 15px;
-  width: 300px;
-  height: 50px;
-}
-
-.butoon__form {
-  background-color: black;
-}
-
-/*inicio*/
+} /*inicio*/
 @media screen and (max-width: 576px) {
   header h1 {
     font-size: 40px;

@@ -1,34 +1,35 @@
-.remeras__titulo {
+.pantalones__titulo {
     color: black;
     font-weight: 700;
-    font-family: map-get($font, $tipoFont );
+    font-family: map-get($tamamosSubTitulos, fontGeneral );
     text-decoration: overline;
     display: flex;
     justify-content: center;
     line-height: 150px;
     font-size: map-get($tamamosSubTitulos, subTitulo );
+
 }
 
-.remeras__img {
+.pantalones__img {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    justify-content: space-evenly;
-    align-content: space-around;
+    justify-content: space-around;
+    padding-bottom: 150px;
 }
 
-/*remeras*/
+/*pantalones*/
 @media screen and (max-width:480px) {
-    .remeras h1 {
+    .pantalones h1 {
         font-size: 40px;
     }
 
-    .remeras__lista {
+    .pantalones__lista {
         display: none;
     }
 
-    .remeras__titulo {
+    .pantalones__titulo {
         font-size: 20px;
     }
 

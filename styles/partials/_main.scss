@@ -7,7 +7,7 @@ main {
     .destacado {
         color: black;
         font-weight: 700;
-        font-family: map-get($font, $tipoFont );
+        font-family: map-get($tamamosSubTitulos, fontGeneral );
         text-decoration: overline;
         display: flex;
         justify-content: center;
@@ -37,7 +37,7 @@ main {
     }
 
     .card {
-        @include card($backColor: transparent);
+        @include card(none);
 
 
     }

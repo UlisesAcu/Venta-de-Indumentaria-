@@ -1,4 +1,15 @@
+.grilla {
+    display: grid;
+    grid-template-areas:
+    "nav"
+    "header"
+    "footer" ;
+}
+
+
+
 header {
+    grid-area: nav;
     text-align: center;
     margin: none;
     padding: none;

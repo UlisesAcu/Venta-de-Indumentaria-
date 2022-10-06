@@ -9,7 +9,13 @@
   color: white;
 }
 
+.grilla {
+  display: grid;
+  grid-template-areas: "nav" "header" "footer";
+}
+
 header {
+  grid-area: nav;
   text-align: center;
   margin: none;
   padding: none;
@@ -59,6 +65,7 @@ header .container-fluid {
 }
 
 footer {
+  grid-template-areas: footer;
   background-color: black;
   color: white;
   padding: 0%;
@@ -94,6 +101,7 @@ footer .diseño {
 }
 
 main {
+  grid-template-areas: mian;
   padding-bottom: 200px;
   padding-left: 20px;
   line-height: 50px;

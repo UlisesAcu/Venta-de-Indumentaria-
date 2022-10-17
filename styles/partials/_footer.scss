@@ -9,7 +9,7 @@
 
     .footer-cen {
         display: flex;
-        justify-content:space-around;
+        justify-content:space-between;
         line-height: 30px;
 
     }
@@ -49,12 +49,12 @@
 .lista-footer {
     display: flex;
     flex-direction: column;
-    justify-content:space-evenly;
+    justify-content:space-around;
     list-style: none;
 }
 .titulos-footer {
     font-weight: 700;
-    text-decoration: underline;
+    
 }
 
     .diseño {
@@ -63,3 +63,4 @@
         
     }
 }
+

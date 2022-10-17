@@ -32,10 +32,6 @@
         font-size: 40px;
     }
 
-    .lista {
-        display: none
-    }
-
     .tamaño__img {
         width: 140px;
         height: 175px;
@@ -56,6 +52,19 @@
     .button:hover {
         color: none;
     }
+    
+
+    .footer-cen {
+        display: flex;
+        flex-direction: column;
+        line-height:60px;
+        
+    }
+.titulos-footer {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 55px;
+}
 
 
 }

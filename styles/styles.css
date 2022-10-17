@@ -75,7 +75,7 @@ header .container-fluid {
 }
 .footer .footer-cen {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   line-height: 30px;
 }
 .footer .footer__ig {
@@ -104,12 +104,11 @@ header .container-fluid {
 .footer .lista-footer {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-around;
   list-style: none;
 }
 .footer .titulos-footer {
   font-weight: 700;
-  text-decoration: underline;
 }
 .footer .diseño {
   text-align: center;
@@ -321,9 +320,6 @@ main .button {
   header h1 {
     font-size: 40px;
   }
-  .lista {
-    display: none;
-  }
   .tamaño__img {
     width: 140px;
     height: 175px;
@@ -339,5 +335,15 @@ main .button {
   }
   .button:hover {
     color: none;
+  }
+  .footer-cen {
+    display: flex;
+    flex-direction: column;
+    line-height: 60px;
+  }
+  .titulos-footer {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 55px;
   }
 }/*# sourceMappingURL=styles.css.map */

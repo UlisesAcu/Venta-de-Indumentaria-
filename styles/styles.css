@@ -216,9 +216,6 @@ main .button {
   .camperas__buzos h1 {
     font-size: 40px;
   }
-  .campera__buzo__lista {
-    display: none;
-  }
   .camperas__buzos__titulo {
     font-size: 20px;
   }
@@ -240,7 +237,6 @@ main .button {
   flex-wrap: wrap;
   justify-content: center;
   justify-content: space-around;
-  padding-bottom: 150px;
 }
 
 /*pantalones*/

@@ -5,11 +5,7 @@
     justify-content: center;
     justify-content: space-evenly;
     align-content: space-around;
-
-
-
 }
-
 .camperas__buzos__titulo {
     color: black;
     font-weight: 700;
@@ -20,15 +16,11 @@
     line-height: 150px;
     font-size: map-get($tamamosSubTitulos, subTitulo );
 }
-
-/*camperas-buzos*/
 @media screen and (max-width:576px) {
     .camperas__buzos h1 {
         font-size: 40px;
     }
-
     .camperas__buzos__titulo {
         font-size: 20px;
     }
-
 }

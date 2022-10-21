@@ -7,30 +7,22 @@
     justify-content: center;
     line-height: 150px;
     font-size: map-get($tamamosSubTitulos, subTitulo );
-
 }
-
 .pantalones__img {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     justify-content: space-around;
-    
 }
-
-/*pantalones*/
 @media screen and (max-width: 576px) {
     .pantalones h1 {
         font-size: 40px;
     }
-
     .pantalones__lista {
         display: none;
     }
-
     .pantalones__titulo {
         font-size: 20px;
     }
-
 }

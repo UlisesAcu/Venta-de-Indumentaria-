@@ -51,6 +51,15 @@
     flex-direction: column;
     justify-content:space-around;
     list-style: none;
+
+    .nav-link {
+        color: white;
+
+        &:hover {
+            color: white;
+            text-decoration: underline;
+        }
+    }
 }
 .titulos-footer {
     font-weight: 700;

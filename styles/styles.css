@@ -107,6 +107,13 @@ header .container-fluid {
   justify-content: space-around;
   list-style: none;
 }
+.footer .lista-footer .nav-link {
+  color: white;
+}
+.footer .lista-footer .nav-link:hover {
+  color: white;
+  text-decoration: underline;
+}
 .footer .titulos-footer {
   font-weight: 700;
 }
